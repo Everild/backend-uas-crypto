@@ -1,0 +1,13 @@
+GET http://localhost:5000/
+
+
+###
+POST http://localhost:5000/komponen
+content-Type: Application/json
+
+{
+    "nama": "RTX 4090",
+    "harga": "20.000.000",
+    "jenis": "VGA",
+    "merek": "Asus"
+}
