@@ -1,0 +1,22 @@
+GET http://localhost:5001/komponen
+
+
+###
+POST http://localhost:5000/komponen
+content-Type: Application/json
+
+# {
+#     "nama": "RTX 4090",
+#     "harga": "20.000.000",
+#     "jenis": "VGA",
+#     "merek": "Asus"
+# }
+###
+DELETE http://localhost:5000/komponen/10
+
+###
+DELETE http://localhost:5000/komponen/2
+
+
+PATCH http://localhost:5000/komponen/1
+Content-Type: application/json
